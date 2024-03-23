@@ -1,2 +1,2 @@
 
-[eco_sounds](https://kosta4310.github.io/eco_sounds/src)
+[eco_sounds](https://kosta4310.github.io/eco-sounds/src)
