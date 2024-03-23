@@ -1,3 +1,74 @@
-html {
-  background-color: blue;
+@import "reset.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header,
+footer {
+  background-color: black;
+  height: 80px;
+  color: white;
+  padding: 0 50px 0 50px;
+  display: flex;
+  align-items: center;
+}
+header > .container,
+footer > .container {
+  max-width: 1480px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+}
+.header_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo > img {
+  width: 40px;
+}
+.logo {
+  cursor: pointer;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.nav_button {
+  font-size: 20px;
+  background-color: inherit;
+  color: white;
+}
+
+.nav_button:hover {
+  color: aqua;
+}
+
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_left {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.footer_left a {
+  color: white;
+}
+
+main {
+  flex: 1 0 auto;
+  background: url(assets/img/forest.jpg) 0 0 / 100% 100% no-repeat;
 }

@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+* {
+  box-sizing: border-box;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+}
+button {
+  font-family: inherit;
+}
+button {
+  cursor: pointer;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
