@@ -37,7 +37,6 @@ menu.addEventListener("click", (e) => {
     for (const item of arrayNavButtons) {
       item.classList.remove("active");
     }
-    // arrayNavButtons.map((item) => item.classList.remove("active"));
     e.target.classList.add("active");
     const [_, birdName] = e.target.classList;
     const [sing, image] = source[birdName];
