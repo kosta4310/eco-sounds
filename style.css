@@ -92,3 +92,7 @@ main {
 .button_pause {
   background: url(assets/svg/pause.svg) 0 0/100% 100% no-repeat;
 }
+
+.active {
+  color: aqua;
+}

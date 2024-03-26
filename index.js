@@ -33,8 +33,13 @@ mainButton.addEventListener("click", () => {
 
 menu.addEventListener("click", (e) => {
   if (e.target.classList.contains("nav_button")) {
+    const arrayNavButtons = document.getElementsByClassName("nav_button");
+    for (const item of arrayNavButtons) {
+      item.classList.remove("active");
+    }
+    // arrayNavButtons.map((item) => item.classList.remove("active"));
+    e.target.classList.add("active");
     const [_, birdName] = e.target.classList;
-    console.log(source);
     const [sing, image] = source[birdName];
     track = sing;
     currentTime = 0;
